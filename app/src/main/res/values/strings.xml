@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Retrofit Demo using MVP</string>
+    <string name="text_loading">Loading...</string>
+
+    <string name="text_user_name_empty">Username shouldn\'t be empty.</string>
+    <string name="text_password_empty">Password shouldn\'t be empty.</string>
+</resources>
