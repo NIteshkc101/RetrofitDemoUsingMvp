@@ -17,7 +17,7 @@ object RetrofitHelper {
     private val retrofit: Retrofit = Retrofit.Builder()
         .addConverterFactory(gsonConverter)
         .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-        .baseUrl(Constants.loginUrl)
+        .baseUrl("https://demo5212443.mockable.io")
         .client(getOkHttpClient())
         .build()
 
